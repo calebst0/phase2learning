@@ -128,7 +128,7 @@ class App extends React.Component<{}, IState> {
 	
 		const title = titleInput.value
 		const tag = tagInput.value
-		const url = "http://phase2apitest.azurewebsites.net/api/meme/upload"
+		const url = "https://memeapiphase2.azurewebsites.net/api/meme/upload"
 	
 		const formData = new FormData()
 		formData.append("Title", title)
