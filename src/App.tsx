@@ -3,7 +3,7 @@ import Modal from 'react-responsive-modal';
 import './App.css';
 import MemeDetail from './components/MemeDetail';
 import MemeList from './components/MemeList';
-import PatrickLogo from './patrick-logo.png';
+import dollarsymbol from './dollarsymbol.jpg';
 
 
 interface IState {
@@ -35,7 +35,7 @@ class App extends React.Component<{}, IState> {
 		<div>
 			<div className="header-wrapper">
 				<div className="container header">
-					<img src={PatrickLogo} height='40'/>&nbsp; My Meme Bank - MSA 2018 &nbsp;
+					<img src={dollarsymbol} height='40'/>&nbsp; Spend Tracker &nbsp;
 					<div className="btn btn-primary btn-action btn-add" onClick={this.onOpenModal}>Add Meme</div>
 				</div>
 			</div>
